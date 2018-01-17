@@ -1,0 +1,8 @@
+.resource__header .title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #3b4151;
+    text-transform: none;
+    letter-spacing: 1px;
+}
