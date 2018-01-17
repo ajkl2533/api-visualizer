@@ -1,0 +1,29 @@
+.auth-scheme__header .title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+    .auth-scheme__header .title::before {
+        content: '';
+        display: inline-block;
+        width: 14px;
+        height: 28px;
+        margin-right: 5px;
+        vertical-align: bottom;
+        background: no-repeat center center url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAxMiAxNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+bG9jazwvdGl0bGU+PGcgZmlsbD0iIzc2Q0ZBQyIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMCA3Ljk5OEMwIDYuODk1LjkwMiA2IDIuMDA5IDZIOS45OUMxMS4xMDEgNiAxMiA2Ljg4NyAxMiA3Ljk5OHY0LjAwNEEyLjAwNSAyLjAwNSAwIDAgMSA5Ljk5MSAxNEgyLjAxQTEuOTk4IDEuOTk4IDAgMCAxIDAgMTIuMDAyVjcuOTk4ek01IDkuMDFhMSAxIDAgMSAxIDIgMHYxLjk4MmExIDEgMCAxIDEtMiAwVjkuMDA5eiIvPjxwYXRoIGQ9Ik00IDYuODEyQzQgNy45MTIgNC45IDcgNiA3YzEuMTAyIDAgMi0uMDU0IDItMS4xNTZWNGMwLTEuMS0uOS0yLTItMi0xLjEwMiAwLTIgLjg5Ny0yIDJ2Mi44MTJ6TTYgMGMyLjIxIDAgNCAxLjggNCA0djIuNDM4YzAgMi4yMDktMS43OTUgMS00IDEtMi4yMSAwLTQgMS4yLTQtMVY0YzAtMi4yMSAxLjc5NS00IDQtNHoiLz48L2c+PC9zdmc+);
+    }
+
+ .auth-members {
+     padding-left: 0;
+     list-style: none;
+ }   
+
+    .auth-members__item code {
+        padding: 4px 7px;
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        color: #584773;
+        border: 1px solid #e3e4e7;
+    }
