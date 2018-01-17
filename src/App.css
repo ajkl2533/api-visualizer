@@ -1,0 +1,29 @@
+.title {
+    margin: 0;
+}
+
+.main-header .title {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c1c6d1;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #3c4151;
+}
+
+.section {
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+    .section__header {
+        padding-bottom: 20px;
+    }
+
+        .section__header .title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #7ccfaf;
+            text-transform: uppercase;
+        }
